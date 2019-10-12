@@ -1,0 +1,109 @@
+<html>
+    
+    
+    <title>Reflection</title>
+    
+    <style>
+        
+        body
+        {
+            background-color: burlywood;
+            font-family: "Avenir Next", sans-serif;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+        }
+        
+        h1
+        {
+            text-align: center;
+        }
+        
+        p
+        {
+            text-indent: 33px;
+        }
+        
+        .desc
+        {
+            text-align: center;
+            text-indent: 0px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        hr
+        {
+            margin-left: 25%;
+            margin-right: 25%;   
+        }
+        
+        .q
+        {
+            font-style: italic;
+            font-weight:bold;
+        }
+        
+        div
+        {
+            text-align: center;
+        }
+        
+    </style>
+    
+    <body>
+        
+        <h1>Class Reflection</h1>
+        
+        <p class = "desc">Answer the following two questions</p>
+
+        <p class = "q">Explain the hardest thing that you have learned and now understand in the class.</p>
+        
+        <p>The one of the most challenging things that I currently understand is the concept of CSS selectors. The initial selectors that we learned (the selectors for all different types) were easier to learn. Such as:</p>
+        
+        <div>
+        <code>
+            p{} //which selects all elements that are paragraphs <br>
+            img{} // which selects all elements that are images
+        </code>
+        </div>
+        
+        <p>It was more confusing to learn how to select more specific elements using classes and ids. I know understand how to select both of these.</p>
+        
+        <div>
+        <code>
+            //if an element is defined by having: class="title" the way to select this is:<br>
+            <br>
+            .title{}<br>
+            <br>
+            //if an element is defined by having: id="A34" the way to select this is:<br>
+            <br>
+            #A34{}
+        </code>
+        </div>
+        
+        <p>I also thought it was confusing when I had to combine different selectors, however, I now understand how this is done. For example, if one wanted to access an specfic image that had a class called "title" then one would use:</p>
+        
+        <div>
+        <code>
+            img .title{}<br>
+            <br>
+        </code>
+        </div>
+        
+        <hr/>
+
+        <p class = "q">Explain the hardest thing that you have not yet understood in the class. Your explanation should describe the what and why of your misunderstanding. You must go on to explain why it makes no sense, that requires that you pinpoint the portion that doesn't fit into your mental model.</p>
+        
+        <p>The hardest thing that I have not fully understood yet is the d3 properties. This concept is not completely confusing to me, however, I believe that I just need to have more practice with it, and I will with the upcoming lab. What I had previously misunderstood was that I didn't know that any function that was written has to be written within the promise.then() part of the code in order for it to run. I was also a little unclear as to what the elements (.select, .selectAll, .data, .enter, .etc) actually did, but now I actually understand their function. The difficult part for me currently is figuring out when to use these elements. Such as the .append() method following the .select(). I have seen code work with and without this method, so I am curious as to when is the appropriate time to use this. I also get confused on when is the best time to use a function within the function. I am unsure if I need to put a function within a method such as .attr() or .text().</p>
+        
+        <hr/>
+        
+        <p class = "q">Write about a question that you have on where all of this content is taking us.</p>
+        
+        <p>We have been learning a lot about visualizing data and distributions, especially in "the truthful art", as well as how to write in JavaScript. Are we going to be able to use data that we have, possibly in a JSON file, and use JavaScript to visualize it in graph form? If we do, is there a way to continuously update it so the information on the page stays up to date if new information is added daily? For example, if I wanted to make a graph that depicts the change in a certain stock, is there a way to make sure the graph is updated to account for any daily change?</p>
+        
+    </body>
+    
+</html>
